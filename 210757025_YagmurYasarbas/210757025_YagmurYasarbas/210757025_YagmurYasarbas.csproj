@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7CF3E73-CCAA-412B-B40B-91C74EE418B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_210757025_YagmurYasarbas</RootNamespace>
+    <AssemblyName>210757025_YagmurYasarbas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAFEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAFEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CAFEDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAFEDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Müsteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müsteriler.Designer.cs">
+      <DependentUpon>Müsteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervasyonform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyonform.Designer.cs">
+      <DependentUpon>Rezervasyonform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasiyerEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasiyerEkle.Designer.cs">
+      <DependentUpon>KasiyerEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıAnaSayfaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullanıcıAnaSayfaForm.Designer.cs">
+      <DependentUpon>KullanıcıAnaSayfaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KayıtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayıtForm.Designer.cs">
+      <DependentUpon>KayıtForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenüForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenüForm.Designer.cs">
+      <DependentUpon>MenüForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siparislerim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siparislerim.Designer.cs">
+      <DependentUpon>Siparislerim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stok.Designer.cs">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KasiyerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasiyerForm.Designer.cs">
+      <DependentUpon>KasiyerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İstatistik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İstatistik.Designer.cs">
+      <DependentUpon>İstatistik.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müsteriler.resx">
+      <DependentUpon>Müsteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezervasyonform.resx">
+      <DependentUpon>Rezervasyonform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasiyerEkle.resx">
+      <DependentUpon>KasiyerEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıAnaSayfaForm.resx">
+      <DependentUpon>KullanıcıAnaSayfaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayıtForm.resx">
+      <DependentUpon>KayıtForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenüForm.resx">
+      <DependentUpon>MenüForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Siparislerim.resx">
+      <DependentUpon>Siparislerim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stok.resx">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasiyerForm.resx">
+      <DependentUpon>KasiyerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İstatistik.resx">
+      <DependentUpon>İstatistik.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CAFEDataSet.xsc">
+      <DependentUpon>CAFEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CAFEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CAFEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CAFEDataSet.xss">
+      <DependentUpon>CAFEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CAFEDataSet1.xsc">
+      <DependentUpon>CAFEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CAFEDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CAFEDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CAFEDataSet1.xss">
+      <DependentUpon>CAFEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
